@@ -213,7 +213,7 @@ export default function App() {
               <Smile size={24} />
             </div>
             <span className={`text-xl font-bold ${scrolled ? 'text-blue-900' : 'text-blue-900 md:text-white'} tracking-tight`}>
-              Perfect<span className="text-blue-500">Smile</span>
+              DENTAL <span className="text-blue-500">MAX</span>
             </span>
           </div>
 
@@ -277,7 +277,7 @@ export default function App() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full pt-20">
           <div className="max-w-2xl text-white">
             <div className="inline-block bg-blue-500/20 backdrop-blur-sm border border-blue-400/30 px-4 py-1 rounded-full text-sm font-semibold mb-6">
-              👋 Bienvenidos a Perfect Smile
+              👋 Bienvenidos a DENTAL MAX
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Recupera la <br />
@@ -440,7 +440,7 @@ export default function App() {
                 <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center text-blue-900">
                   <Smile size={20} />
                 </div>
-                <span className="text-2xl font-bold">PerfectSmile</span>
+                <span className="text-2xl font-bold">DENTAL MAX</span>
               </div>
               <p className="text-blue-200 mb-6 leading-relaxed">
                 Estamos listos para transformar tu sonrisa y tu confianza. Agenda tu cita hoy mismo.
@@ -448,11 +448,11 @@ export default function App() {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <MapPin className="text-blue-400 mt-1" />
-                  <span className="text-gray-300">Av. Principal 123, Colonia Centro.<br />Ciudad, CP 12345.</span>
+                  <span className="text-gray-300">Circonia 225, Colonia La Joya.<br />Reynosa, Tamaulipas, CP 88777.</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="text-blue-400" />
-                  <span className="text-gray-300">+52 55 1234 5678</span>
+                  <span className="text-gray-300">+52 899 468 9395</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="text-blue-400" />
@@ -465,7 +465,7 @@ export default function App() {
             <div className="md:w-2/3 h-64 bg-gray-800 rounded-2xl overflow-hidden shadow-2xl border border-blue-800 relative group">
               {/* Overlay de mapa interactivo simulado */}
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.536965824647!2d-99.16869368561765!3d19.432607786885375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92b75aa014d%3A0x17d810d20da6e8cf!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses-419!2smx!4v1646761500000!5m2!1ses-419!2smx"
+                src="https://maps.google.com/maps?q=DENTAL+MAX+Reynosa&z=17&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -481,7 +481,7 @@ export default function App() {
           </div>
 
           <div className="border-t border-blue-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-blue-400 text-sm">© 2024 Perfect Smile Clínica Dental. Todos los derechos reservados.</p>
+            <p className="text-blue-400 text-sm">© 2026 DENTAL MAX. Todos los derechos reservados.</p>
             <div className="flex gap-6">
               <Instagram className="cursor-pointer hover:text-pink-400 transition-colors" />
               <Facebook className="cursor-pointer hover:text-blue-400 transition-colors" />
