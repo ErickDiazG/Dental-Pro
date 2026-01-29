@@ -1,0 +1,84 @@
+﻿
+> dentista@0.0.0 build
+> vite build
+
+node.exe : 
+[31mfailed to load 
+config from C:\Users\
+LENOVO\OneDrive\Escri
+torio\Dentista 
+1\vite.config.js[39m
+En línea: 1 
+Carácter: 1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ([31mfa   
+ iled to ....conf    
+ig.js[39m:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+[31merror during 
+build:
+Error [ERR_MODULE_NOT
+_FOUND]: Cannot find 
+package 
+'@tailwindcss/vite' 
+imported from C:\User
+s\LENOVO\OneDrive\Esc
+ritorio\Dentista 1\no
+de_modules\.vite-temp
+\vite.config.js.times
+tamp-1769652743467-70
+dcab35873d68.mjs
+    at Object.getPack
+ageJSONURL (node:inte
+rnal/modules/package_
+json_reader:316:9)
+    at 
+packageResolve (node:
+internal/modules/esm/
+resolve:768:81)
+    at moduleResolve 
+(node:internal/module
+s/esm/resolve:858:18)
+    at 
+defaultResolve (node:
+internal/modules/esm/
+resolve:990:11)
+    at #cachedDefault
+Resolve (node:interna
+l/modules/esm/loader:
+718:20)
+    at #resolveAndMay
+beBlockOnLoaderThread
+ (node:internal/modul
+es/esm/loader:735:38)
+    at ModuleLoader.r
+esolveSync (node:inte
+rnal/modules/esm/load
+er:764:52)
+    at #resolve (node
+:internal/modules/esm
+/loader:700:17)
+    at ModuleLoader.g
+etOrCreateModuleJob (
+node:internal/modules
+/esm/loader:620:35)
+    at 
+ModuleJob.syncLink (n
+ode:internal/modules/
+esm/module_job:143:33
+)[39m
