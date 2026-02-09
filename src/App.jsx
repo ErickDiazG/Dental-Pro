@@ -213,7 +213,7 @@ export default function App() {
               <Smile size={24} />
             </div>
             <span className={`text-xl font-bold ${scrolled ? 'text-blue-900' : 'text-blue-900 md:text-white'} tracking-tight`}>
-              DENTAL <span className="text-blue-500">MAX</span>
+              Dental <span className="text-blue-500">Pro</span>
             </span>
           </div>
 
@@ -228,9 +228,14 @@ export default function App() {
                 {item}
               </button>
             ))}
-            <button className="bg-white text-blue-600 px-5 py-2 rounded-full font-bold shadow-lg hover:bg-gray-100 transition-transform hover:scale-105 active:scale-95 text-sm">
+            <a
+              href="https://wa.me/528994266944?text=Hola%20Clínica%20Dental%20Pro,%20quisiera%20agendar%20una%20cita..."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-blue-600 px-5 py-2 rounded-full font-bold shadow-lg hover:bg-gray-100 transition-transform hover:scale-105 active:scale-95 text-sm"
+            >
               Agendar Cita
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -277,7 +282,7 @@ export default function App() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full pt-20">
           <div className="max-w-2xl text-white">
             <div className="inline-block bg-blue-500/20 backdrop-blur-sm border border-blue-400/30 px-4 py-1 rounded-full text-sm font-semibold mb-6">
-              👋 Bienvenidos a DENTAL MAX
+              👋 Bienvenidos a Clínica Dental Pro
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Recupera la <br />
@@ -288,10 +293,15 @@ export default function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-green-500/30 transition-all hover:scale-105">
+              <a
+                href="https://wa.me/528994266944?text=Hola%20Clínica%20Dental%20Pro,%20quisiera%20agendar%20una%20valoración..."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-green-500/30 transition-all hover:scale-105"
+              >
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA" className="w-6 h-6 invert" />
                 Agendar Valoración
-              </button>
+              </a>
               <button
                 onClick={() => scrollToSection('transformaciones')}
                 className="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-full font-bold transition-all"
@@ -420,7 +430,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* 5. Testimonios y Tips */}
+      {/* 5. Testimonios y Tips
       <section id="testimonios" className="bg-white pt-20">
         <div className="text-center px-4">
           <h2 className="text-3xl font-bold text-gray-900">Lo que dicen nuestros pacientes</h2>
@@ -428,6 +438,7 @@ export default function App() {
         </div>
         <TipsCarousel />
       </section>
+      */}
 
       {/* 6. Footer y Ubicación */}
       <section id="ubicacion" className="bg-blue-900 text-white pt-16 pb-8">
@@ -440,7 +451,7 @@ export default function App() {
                 <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center text-blue-900">
                   <Smile size={20} />
                 </div>
-                <span className="text-2xl font-bold">DENTAL MAX</span>
+                <span className="text-2xl font-bold">Salud y Cuidado Dental</span>
               </div>
               <p className="text-blue-200 mb-6 leading-relaxed">
                 Estamos listos para transformar tu sonrisa y tu confianza. Agenda tu cita hoy mismo.
@@ -448,15 +459,15 @@ export default function App() {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <MapPin className="text-blue-400 mt-1" />
-                  <span className="text-gray-300">Circonia 225, Colonia La Joya.<br />Reynosa, Tamaulipas, CP 88777.</span>
+                  <span className="text-gray-300">Av. 20 de Noviembre 987, esq. Patricia fracc Reynosa (Almaguer) <br />Reynosa, Tamaulipas 88780</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="text-blue-400" />
-                  <span className="text-gray-300">+52 899 468 9395</span>
+                  <span className="text-gray-300">+52 899 426 6944</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="text-blue-400" />
-                  <span className="text-gray-300">Lun - Vie: 9am - 8pm | Sáb: 9am - 2pm</span>
+                  <span className="text-gray-300">Lun - Vie: 10am - 7:30pm | Sáb: 10am - 5pm | Dom: 10:30am - 2pm</span>
                 </div>
               </div>
             </div>
@@ -465,7 +476,7 @@ export default function App() {
             <div className="md:w-2/3 h-64 bg-gray-800 rounded-2xl overflow-hidden shadow-2xl border border-blue-800 relative group">
               {/* Overlay de mapa interactivo simulado */}
               <iframe
-                src="https://maps.google.com/maps?q=DENTAL+MAX+Reynosa&z=17&output=embed"
+                src="https://maps.google.com/maps?q=Clínica+Dental+Pro&ll=26.0328393,-98.2366687&z=17&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -480,11 +491,31 @@ export default function App() {
             </div>
           </div>
 
-          <div className="border-t border-blue-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-blue-400 text-sm">© 2026 DENTAL MAX. Todos los derechos reservados.</p>
+          <div className="border-t border-blue-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+            <div className="text-sm">
+              <a
+                href="https://devdiazlabs.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-1 text-blue-400 hover:text-white transition-colors duration-300 font-medium cursor-pointer"
+              >
+                <span>Desarrollado por</span>
+                <span className="relative overflow-hidden">
+                  DevDiaz Labs
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-current transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                </span>
+              </a>
+            </div>
+
             <div className="flex gap-6">
-              <Instagram className="cursor-pointer hover:text-pink-400 transition-colors" />
-              <Facebook className="cursor-pointer hover:text-blue-400 transition-colors" />
+              {/* <Instagram className="cursor-pointer hover:text-pink-400 transition-colors" /> */}
+              <a
+                href="https://www.facebook.com/p/Cl%C3%ADnica-Dental-Pro-61569973328929/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Facebook className="cursor-pointer hover:text-blue-400 transition-colors" />
+              </a>
             </div>
           </div>
         </div>
@@ -492,7 +523,7 @@ export default function App() {
 
       {/* Floating Action Button - WhatsApp */}
       <a
-        href="https://wa.me/525512345678?text=Hola%20Perfect%20Smile,%20quisiera%20agendar%20una%20revisión..."
+        href="https://wa.me/528994266944?text=Hola%20Clínica%20Dental%20Pro,%20quisiera%20agendar%20una%20revisión..."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-transform hover:scale-110 flex items-center justify-center animate-bounce-slow"
