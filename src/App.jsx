@@ -219,7 +219,7 @@ export default function App() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-8 items-center">
-            {['Servicios', 'Tecnología', 'Testimonios', 'Ubicación'].map((item) => (
+            {['Inicio', 'Servicios', 'Transformaciones', 'Tecnología', 'Ubicación'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))}
@@ -250,7 +250,7 @@ export default function App() {
         {/* Mobile Menu Dropdown */}
         {isMenuOpen && (
           <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-xl py-4 flex flex-col gap-4 px-6 border-t">
-            {['Servicios', 'Tecnología', 'Testimonios', 'Ubicación'].map((item) => (
+            {['Inicio', 'Servicios', 'Transformaciones', 'Tecnología', 'Ubicación'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))}
@@ -267,7 +267,7 @@ export default function App() {
       </nav>
 
       {/* 1. Hero Section */}
-      <section className="relative min-h-screen flex items-center">
+      <section id="inicio" className="relative min-h-screen flex items-center">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
